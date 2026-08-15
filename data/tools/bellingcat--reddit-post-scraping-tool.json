@@ -1,0 +1,17 @@
+{
+  "id": "bellingcat--reddit-post-scraping-tool",
+  "name": "reddit-post-scraping-tool",
+  "owner": "bellingcat",
+  "repository": "https://github.com/bellingcat/reddit-post-scraping-tool",
+  "categories": [
+    "Social-Media-OSINT"
+  ],
+  "description": "An upstream repository listed in social media. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/bellingcat/reddit-post-scraping-tool",
+    "verified": false
+  },
+  "featured": false
+}
