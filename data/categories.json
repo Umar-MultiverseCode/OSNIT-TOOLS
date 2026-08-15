@@ -1,0 +1,206 @@
+[
+  {
+    "id": "Telegram-OSINT",
+    "name": "Telegram",
+    "description": "Explore public channels, messaging research and Telegram resources.",
+    "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT"
+  },
+  {
+    "id": "Data-Acquisition-OSINT",
+    "name": "Data Acquisition",
+    "description": "Find datasets, public records and data acquisition resources.",
+    "source": "https://github.com/The-Osint-Toolbox/Data-Acquisition-OSINT"
+  },
+  {
+    "id": "Social-Media-OSINT",
+    "name": "Social Media",
+    "description": "Discover resources for researching public social profiles and content.",
+    "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT"
+  },
+  {
+    "id": "Website-OSINT",
+    "name": "Website",
+    "description": "Research websites, domains, site history and their public footprint.",
+    "source": "https://github.com/The-Osint-Toolbox/Website-OSINT"
+  },
+  {
+    "id": "People-Search-OSINT",
+    "name": "People Search",
+    "description": "Explore public-record directories and identity research resources.",
+    "source": "https://github.com/The-Osint-Toolbox/People-Search-OSINT"
+  },
+  {
+    "id": "Geolocation-OSINT",
+    "name": "Geolocation",
+    "description": "Find mapping resources and visual clues for location research.",
+    "source": "https://github.com/The-Osint-Toolbox/Geolocation-OSINT"
+  },
+  {
+    "id": "Image-Research-OSINT",
+    "name": "Image Research",
+    "description": "Explore image search, metadata and visual verification resources.",
+    "source": "https://github.com/The-Osint-Toolbox/Image-Research-OSINT"
+  },
+  {
+    "id": "Email-Username-OSINT",
+    "name": "Email & usernames",
+    "description": "Research usernames, email identifiers and public account links.",
+    "source": "https://github.com/The-Osint-Toolbox/Email-Username-OSINT"
+  },
+  {
+    "id": "YouTube-Video-OSINT",
+    "name": "YouTube & video",
+    "description": "Explore video discovery, analysis and platform research resources.",
+    "source": "https://github.com/The-Osint-Toolbox/YouTube-Video-OSINT"
+  },
+  {
+    "id": "GitHub-OSINT-Accounts",
+    "name": "GitHub researchers",
+    "description": "Find GitHub accounts that share open-source research resources.",
+    "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts"
+  },
+  {
+    "id": "OSINT-Toolbox-Peripherals",
+    "name": "Research utilities",
+    "description": "Explore supporting utilities for your research workflow.",
+    "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals"
+  },
+  {
+    "id": "OSINT-Communities-Practitioners",
+    "name": "Communities & practitioners",
+    "description": "Discover research communities and practitioners.",
+    "source": "https://github.com/The-Osint-Toolbox/OSINT-Communities-Practitioners"
+  },
+  {
+    "id": "Archive-OSINT",
+    "name": "Archive",
+    "description": "Explore archived pages, historical records and preservation tools.",
+    "source": "https://github.com/The-Osint-Toolbox/Archive-OSINT"
+  },
+  {
+    "id": "URL-Manipulation",
+    "name": "URL Manipulation",
+    "description": "Understand URL structures and explore URL research resources.",
+    "source": "https://github.com/The-Osint-Toolbox/URL-Manipulation"
+  },
+  {
+    "id": "Custom-Search-Engines",
+    "name": "Custom Search Engines",
+    "description": "Discover focused search engines for particular research questions.",
+    "source": "https://github.com/The-Osint-Toolbox/Custom-Search-Engines"
+  },
+  {
+    "id": "OSINT-Advanced-Searching",
+    "name": "OSINT Advanced Searching",
+    "description": "Explore search techniques, query resources and research guides.",
+    "source": "https://github.com/The-Osint-Toolbox/OSINT-Advanced-Searching"
+  },
+  {
+    "id": "Internet-OSINT",
+    "name": "Internet",
+    "description": "Explore network, domain and internet infrastructure research.",
+    "source": "https://github.com/The-Osint-Toolbox/Internet-OSINT"
+  },
+  {
+    "id": "Company-Business-OSINT",
+    "name": "Companies & business",
+    "description": "Find company registries and business research resources.",
+    "source": "https://github.com/The-Osint-Toolbox/Company-Business-OSINT"
+  },
+  {
+    "id": "Darkweb-OSINT",
+    "name": "Darkweb",
+    "description": "Explore research guides and directories related to darkweb intelligence.",
+    "source": "https://github.com/The-Osint-Toolbox/Darkweb-OSINT"
+  },
+  {
+    "id": "Telephone-OSINT",
+    "name": "Telephone",
+    "description": "Discover resources for researching telephone identifiers.",
+    "source": "https://github.com/The-Osint-Toolbox/Telephone-OSINT"
+  },
+  {
+    "id": "Search-Engines",
+    "name": "Search Engines",
+    "description": "Find alternative search engines and specialized indexes.",
+    "source": "https://github.com/The-Osint-Toolbox/Search-Engines"
+  },
+  {
+    "id": "Fact-Checking-Verification",
+    "name": "Fact-checking & verification",
+    "description": "Explore evidence verification and fact-checking resources.",
+    "source": "https://github.com/The-Osint-Toolbox/Fact-Checking-Verification"
+  },
+  {
+    "id": "Privacy-Infosec-Tools-Resources",
+    "name": "Privacy & infosec",
+    "description": "Explore privacy tools and information security references.",
+    "source": "https://github.com/The-Osint-Toolbox/Privacy-Infosec-Tools-Resources"
+  },
+  {
+    "id": "Privacy-Practitioners",
+    "name": "Privacy Practitioners",
+    "description": "Discover practitioners and resources focused on privacy.",
+    "source": "https://github.com/The-Osint-Toolbox/Privacy-Practitioners"
+  },
+  {
+    "id": "WiFi-OSINT",
+    "name": "WiFi",
+    "description": "Explore wireless network mapping and research resources.",
+    "source": "https://github.com/The-Osint-Toolbox/WiFi-OSINT"
+  },
+  {
+    "id": "Fitness-Leisure-OSINT",
+    "name": "Fitness Leisure",
+    "description": "Discover research resources related to fitness and leisure platforms.",
+    "source": "https://github.com/The-Osint-Toolbox/Fitness-Leisure-OSINT"
+  },
+  {
+    "id": "Vehicle-OSINT",
+    "name": "Vehicle",
+    "description": "Explore public vehicle research resources and references.",
+    "source": "https://github.com/The-Osint-Toolbox/Vehicle-OSINT"
+  },
+  {
+    "id": "OSINT-Blogs-Video-Resources",
+    "name": "Blogs & learning",
+    "description": "Read research blogs, watch walkthroughs and learn techniques.",
+    "source": "https://github.com/The-Osint-Toolbox/OSINT-Blogs-Video-Resources"
+  },
+  {
+    "id": "OSINT-Browser-Extensions",
+    "name": "Browser extensions",
+    "description": "Find browser extensions that support research workflows.",
+    "source": "https://github.com/The-Osint-Toolbox/OSINT-Browser-Extensions"
+  },
+  {
+    "id": "AI-Resources",
+    "name": "AI Resources",
+    "description": "Explore AI resources and open-source projects for research workflows.",
+    "source": "https://github.com/The-Osint-Toolbox/AI-Resources"
+  },
+  {
+    "id": "Ancestry-Genealogy-OSINT",
+    "name": "Ancestry & genealogy",
+    "description": "Explore genealogy indexes and historical family research.",
+    "source": "https://github.com/The-Osint-Toolbox/Ancestry-Genealogy-OSINT"
+  },
+  {
+    "id": "VPN-Providers",
+    "name": "VPN Providers",
+    "description": "Find VPN provider information and privacy research references.",
+    "source": "https://github.com/The-Osint-Toolbox/VPN-Providers"
+  },
+  {
+    "id": "Flight-And-Marine-OSINT",
+    "name": "Flight & marine",
+    "description": "Explore aviation, maritime tracking and transport research.",
+    "source": "https://github.com/The-Osint-Toolbox/Flight-And-Marine-OSINT"
+  },
+  {
+    "id": "Privacy-Opt-Out",
+    "name": "Privacy Opt Out",
+    "description": "Find privacy opt-out guides and data removal resources.",
+    "source": "https://github.com/The-Osint-Toolbox/Privacy-Opt-Out"
+  }
+]

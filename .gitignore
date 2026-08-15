@@ -1,0 +1,16 @@
+dist/
+node_modules/
+.local/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+.venv/
+results/
+credentials*
+*.session
+*.session-journal
+Thumbs.db
+.DS_Store
