@@ -1,0 +1,17 @@
+{
+  "id": "bellingcat--telegram-phone-number-checker",
+  "name": "telegram-phone-number-checker",
+  "owner": "bellingcat",
+  "repository": "https://github.com/bellingcat/telegram-phone-number-checker",
+  "categories": [
+    "Telegram-OSINT"
+  ],
+  "description": "An upstream repository listed in telegram. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
+  "license": {
+    "label": "MIT",
+    "reference": "https://github.com/bellingcat/telegram-phone-number-checker/blob/HEAD/LICENSE",
+    "verified": true
+  },
+  "featured": false
+}
