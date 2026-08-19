@@ -1,0 +1,17 @@
+{
+  "id": "boringthegod--doxcord",
+  "name": "doxcord",
+  "owner": "boringthegod",
+  "repository": "https://github.com/boringthegod/doxcord",
+  "categories": [
+    "Social-Media-OSINT"
+  ],
+  "description": "An upstream repository listed in social media. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/boringthegod/doxcord",
+    "verified": false
+  },
+  "featured": false
+}
