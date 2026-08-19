@@ -1,0 +1,18 @@
+{
+  "id": "bellingcat--whisperbox-transcribe",
+  "name": "whisperbox-transcribe",
+  "owner": "bellingcat",
+  "repository": "https://github.com/bellingcat/whisperbox-transcribe",
+  "categories": [
+    "GitHub-OSINT-Accounts",
+    "AI-Resources"
+  ],
+  "description": "An upstream repository listed in github researchers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/bellingcat/whisperbox-transcribe",
+    "verified": false
+  },
+  "featured": false
+}
