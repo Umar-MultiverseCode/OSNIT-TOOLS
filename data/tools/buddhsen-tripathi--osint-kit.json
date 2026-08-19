@@ -1,0 +1,17 @@
+{
+  "id": "buddhsen-tripathi--osint-kit",
+  "name": "OSINT-Kit",
+  "owner": "Buddhsen-tripathi",
+  "repository": "https://github.com/Buddhsen-tripathi/OSINT-Kit",
+  "categories": [
+    "GitHub-OSINT-Accounts"
+  ],
+  "description": "An upstream repository listed in github researchers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Buddhsen-tripathi/OSINT-Kit",
+    "verified": false
+  },
+  "featured": false
+}
