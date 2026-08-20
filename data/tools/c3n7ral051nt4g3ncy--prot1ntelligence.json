@@ -1,0 +1,17 @@
+{
+  "id": "c3n7ral051nt4g3ncy--prot1ntelligence",
+  "name": "Prot1ntelligence",
+  "owner": "C3n7ral051nt4g3ncy",
+  "repository": "https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence",
+  "categories": [
+    "GitHub-OSINT-Accounts"
+  ],
+  "description": "An upstream repository listed in github researchers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence",
+    "verified": false
+  },
+  "featured": false
+}
