@@ -1,0 +1,17 @@
+{
+  "id": "cipher387--advanced-search-operators-list",
+  "name": "Advanced-search-operators-list",
+  "owner": "cipher387",
+  "repository": "https://github.com/cipher387/Advanced-search-operators-list",
+  "categories": [
+    "OSINT-Advanced-Searching"
+  ],
+  "description": "An upstream repository listed in osint advanced searching. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Advanced-Searching",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/cipher387/Advanced-search-operators-list",
+    "verified": false
+  },
+  "featured": false
+}
