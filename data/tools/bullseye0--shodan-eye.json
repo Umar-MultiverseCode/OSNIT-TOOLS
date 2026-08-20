@@ -1,0 +1,17 @@
+{
+  "id": "bullseye0--shodan-eye",
+  "name": "shodan-eye",
+  "owner": "BullsEye0",
+  "repository": "https://github.com/BullsEye0/shodan-eye",
+  "categories": [
+    "Internet-OSINT"
+  ],
+  "description": "An upstream repository listed in internet. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Internet-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/BullsEye0/shodan-eye",
+    "verified": false
+  },
+  "featured": false
+}
