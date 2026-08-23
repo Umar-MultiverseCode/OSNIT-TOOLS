@@ -1,0 +1,17 @@
+{
+  "id": "cipher387--cheatsheets",
+  "name": "cheatsheets",
+  "owner": "cipher387",
+  "repository": "https://github.com/cipher387/cheatsheets",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/cipher387/cheatsheets",
+    "verified": false
+  },
+  "featured": false
+}
