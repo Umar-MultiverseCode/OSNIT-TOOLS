@@ -1,0 +1,17 @@
+{
+  "id": "cqcore--email-username-osint",
+  "name": "Email-Username-OSINT",
+  "owner": "cqcore",
+  "repository": "https://github.com/cqcore/Email-Username-OSINT",
+  "categories": [
+    "URL-Manipulation"
+  ],
+  "description": "An upstream repository listed in url manipulation. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/URL-Manipulation",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/cqcore/Email-Username-OSINT",
+    "verified": false
+  },
+  "featured": false
+}
