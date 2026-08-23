@@ -1,0 +1,17 @@
+{
+  "id": "cqcore--image-research-osint",
+  "name": "Image-Research-OSINT",
+  "owner": "cqcore",
+  "repository": "https://github.com/cqcore/Image-Research-OSINT",
+  "categories": [
+    "Geolocation-OSINT"
+  ],
+  "description": "An upstream repository listed in geolocation. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Geolocation-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/cqcore/Image-Research-OSINT",
+    "verified": false
+  },
+  "featured": false
+}
