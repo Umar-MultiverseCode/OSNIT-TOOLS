@@ -1,0 +1,17 @@
+{
+  "id": "cqcore--privacy-practitioners",
+  "name": "Privacy-Practitioners",
+  "owner": "cqcore",
+  "repository": "https://github.com/cqcore/Privacy-Practitioners",
+  "categories": [
+    "VPN-Providers"
+  ],
+  "description": "An upstream repository listed in vpn providers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/VPN-Providers",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/cqcore/Privacy-Practitioners",
+    "verified": false
+  },
+  "featured": false
+}
