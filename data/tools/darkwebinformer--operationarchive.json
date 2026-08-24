@@ -1,0 +1,17 @@
+{
+  "id": "darkwebinformer--operationarchive",
+  "name": "OperationArchive",
+  "owner": "DarkWebInformer",
+  "repository": "https://github.com/DarkWebInformer/OperationArchive",
+  "categories": [
+    "Data-Acquisition-OSINT"
+  ],
+  "description": "An upstream repository listed in data acquisition. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Data-Acquisition-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/DarkWebInformer/OperationArchive",
+    "verified": false
+  },
+  "featured": false
+}
