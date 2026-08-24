@@ -1,0 +1,17 @@
+{
+  "id": "darknet-book--tor-guide",
+  "name": "tor-guide",
+  "owner": "darknet-book",
+  "repository": "https://github.com/darknet-book/tor-guide",
+  "categories": [
+    "Darkweb-OSINT"
+  ],
+  "description": "An upstream repository listed in darkweb. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Darkweb-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/darknet-book/tor-guide",
+    "verified": false
+  },
+  "featured": false
+}
