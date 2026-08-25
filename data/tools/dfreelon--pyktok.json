@@ -1,0 +1,17 @@
+{
+  "id": "dfreelon--pyktok",
+  "name": "pyktok",
+  "owner": "dfreelon",
+  "repository": "https://github.com/dfreelon/pyktok",
+  "categories": [
+    "Social-Media-OSINT"
+  ],
+  "description": "An upstream repository listed in social media. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/dfreelon/pyktok",
+    "verified": false
+  },
+  "featured": false
+}
