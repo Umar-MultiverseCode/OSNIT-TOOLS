@@ -1,0 +1,17 @@
+{
+  "id": "doormanbreach--freedatabreaches",
+  "name": "FreeDatabreaches",
+  "owner": "doormanBreach",
+  "repository": "https://github.com/doormanBreach/FreeDatabreaches",
+  "categories": [
+    "Data-Acquisition-OSINT"
+  ],
+  "description": "An upstream repository listed in data acquisition. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Data-Acquisition-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/doormanBreach/FreeDatabreaches",
+    "verified": false
+  },
+  "featured": false
+}
