@@ -1,0 +1,17 @@
+{
+  "id": "darkwebinformer--threat-surface",
+  "name": "Threat-Surface",
+  "owner": "DarkWebInformer",
+  "repository": "https://github.com/DarkWebInformer/Threat-Surface",
+  "categories": [
+    "Data-Acquisition-OSINT"
+  ],
+  "description": "An upstream repository listed in data acquisition. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Data-Acquisition-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/DarkWebInformer/Threat-Surface",
+    "verified": false
+  },
+  "featured": false
+}
