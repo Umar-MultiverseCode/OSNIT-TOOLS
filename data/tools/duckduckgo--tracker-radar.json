@@ -1,0 +1,17 @@
+{
+  "id": "duckduckgo--tracker-radar",
+  "name": "tracker-radar",
+  "owner": "duckduckgo",
+  "repository": "https://github.com/duckduckgo/tracker-radar",
+  "categories": [
+    "Website-OSINT"
+  ],
+  "description": "An upstream repository listed in website. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Website-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/duckduckgo/tracker-radar",
+    "verified": false
+  },
+  "featured": false
+}
