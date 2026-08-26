@@ -1,0 +1,17 @@
+{
+  "id": "dutchosintguy--keywords-highlight-bookmark",
+  "name": "keywords-highlight-bookmark",
+  "owner": "Dutchosintguy",
+  "repository": "https://github.com/Dutchosintguy/keywords-highlight-bookmark",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Dutchosintguy/keywords-highlight-bookmark",
+    "verified": false
+  },
+  "featured": false
+}
