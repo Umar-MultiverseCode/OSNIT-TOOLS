@@ -1,0 +1,17 @@
+{
+  "id": "gonzosint--geowifi",
+  "name": "geowifi",
+  "owner": "GONZOsint",
+  "repository": "https://github.com/GONZOsint/geowifi",
+  "categories": [
+    "WiFi-OSINT"
+  ],
+  "description": "An upstream repository listed in wifi. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/WiFi-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/GONZOsint/geowifi",
+    "verified": false
+  },
+  "featured": false
+}
