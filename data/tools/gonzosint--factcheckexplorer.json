@@ -1,0 +1,17 @@
+{
+  "id": "gonzosint--factcheckexplorer",
+  "name": "factcheckexplorer",
+  "owner": "GONZOsint",
+  "repository": "https://github.com/GONZOsint/factcheckexplorer",
+  "categories": [
+    "Fact-Checking-Verification"
+  ],
+  "description": "An upstream repository listed in fact-checking & verification. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Fact-Checking-Verification",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/GONZOsint/factcheckexplorer",
+    "verified": false
+  },
+  "featured": false
+}
