@@ -1,0 +1,18 @@
+{
+  "id": "hashpals--search-that-hash",
+  "name": "Search-That-Hash",
+  "owner": "HashPals",
+  "repository": "https://github.com/HashPals/Search-That-Hash",
+  "categories": [
+    "Data-Acquisition-OSINT",
+    "GitHub-OSINT-Accounts"
+  ],
+  "description": "An upstream repository listed in data acquisition. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Data-Acquisition-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/HashPals/Search-That-Hash",
+    "verified": false
+  },
+  "featured": false
+}
