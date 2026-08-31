@@ -1,0 +1,18 @@
+{
+  "id": "gonzosint--gvision",
+  "name": "gvision",
+  "owner": "GONZOsint",
+  "repository": "https://github.com/GONZOsint/gvision",
+  "categories": [
+    "Geolocation-OSINT",
+    "Image-Research-OSINT"
+  ],
+  "description": "An upstream repository listed in geolocation. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Geolocation-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/GONZOsint/gvision",
+    "verified": false
+  },
+  "featured": false
+}
