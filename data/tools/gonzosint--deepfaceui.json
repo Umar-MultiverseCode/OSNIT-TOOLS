@@ -1,0 +1,17 @@
+{
+  "id": "gonzosint--deepfaceui",
+  "name": "deepfaceui",
+  "owner": "GONZOsint",
+  "repository": "https://github.com/GONZOsint/deepfaceui",
+  "categories": [
+    "Image-Research-OSINT"
+  ],
+  "description": "An upstream repository listed in image research. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Image-Research-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/GONZOsint/deepfaceui",
+    "verified": false
+  },
+  "featured": false
+}
