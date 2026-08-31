@@ -1,0 +1,17 @@
+{
+  "id": "gonzosint--fingerprinter",
+  "name": "fingerprinter",
+  "owner": "GONZOsint",
+  "repository": "https://github.com/GONZOsint/fingerprinter",
+  "categories": [
+    "Privacy-Infosec-Tools-Resources"
+  ],
+  "description": "An upstream repository listed in privacy & infosec. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Privacy-Infosec-Tools-Resources",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/GONZOsint/fingerprinter",
+    "verified": false
+  },
+  "featured": false
+}
