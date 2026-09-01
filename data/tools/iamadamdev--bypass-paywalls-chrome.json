@@ -1,0 +1,17 @@
+{
+  "id": "iamadamdev--bypass-paywalls-chrome",
+  "name": "bypass-paywalls-chrome",
+  "owner": "iamadamdev",
+  "repository": "https://github.com/iamadamdev/bypass-paywalls-chrome",
+  "categories": [
+    "OSINT-Browser-Extensions"
+  ],
+  "description": "An upstream repository listed in browser extensions. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Browser-Extensions",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/iamadamdev/bypass-paywalls-chrome",
+    "verified": false
+  },
+  "featured": false
+}
