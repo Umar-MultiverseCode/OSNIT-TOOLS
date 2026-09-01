@@ -1,0 +1,17 @@
+{
+  "id": "humblelad--shodan-dorks",
+  "name": "Shodan-Dorks",
+  "owner": "humblelad",
+  "repository": "https://github.com/humblelad/Shodan-Dorks",
+  "categories": [
+    "Internet-OSINT"
+  ],
+  "description": "An upstream repository listed in internet. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Internet-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/humblelad/Shodan-Dorks",
+    "verified": false
+  },
+  "featured": false
+}
