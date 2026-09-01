@@ -1,0 +1,17 @@
+{
+  "id": "itismecall911--awesome-telegram-osint",
+  "name": "Awesome-Telegram-OSINT",
+  "owner": "ItIsMeCall911",
+  "repository": "https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT",
+  "categories": [
+    "Telegram-OSINT"
+  ],
+  "description": "An upstream repository listed in telegram. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT",
+    "verified": false
+  },
+  "featured": false
+}
