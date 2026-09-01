@@ -1,0 +1,17 @@
+{
+  "id": "ironship--telegramosintpolo",
+  "name": "TelegramOSINTPolo",
+  "owner": "Ironship",
+  "repository": "https://github.com/Ironship/TelegramOSINTPolo",
+  "categories": [
+    "Telegram-OSINT"
+  ],
+  "description": "An upstream repository listed in telegram. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
+  "license": {
+    "label": "MIT",
+    "reference": "https://github.com/Ironship/TelegramOSINTPolo/blob/HEAD/LICENSE",
+    "verified": true
+  },
+  "featured": false
+}
