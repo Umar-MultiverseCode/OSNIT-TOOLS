@@ -1,0 +1,17 @@
+{
+  "id": "instaloader--instaloader",
+  "name": "instaloader",
+  "owner": "instaloader",
+  "repository": "https://github.com/instaloader/instaloader",
+  "categories": [
+    "Social-Media-OSINT"
+  ],
+  "description": "An upstream repository listed in social media. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/instaloader/instaloader",
+    "verified": false
+  },
+  "featured": false
+}
