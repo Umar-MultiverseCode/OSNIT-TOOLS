@@ -1,0 +1,17 @@
+{
+  "id": "jakejarvis--awesome-shodan-queries",
+  "name": "awesome-shodan-queries",
+  "owner": "jakejarvis",
+  "repository": "https://github.com/jakejarvis/awesome-shodan-queries",
+  "categories": [
+    "Internet-OSINT"
+  ],
+  "description": "An upstream repository listed in internet. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Internet-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/jakejarvis/awesome-shodan-queries",
+    "verified": false
+  },
+  "featured": false
+}
