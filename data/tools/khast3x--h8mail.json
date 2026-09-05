@@ -1,0 +1,17 @@
+{
+  "id": "khast3x--h8mail",
+  "name": "h8mail",
+  "owner": "khast3x",
+  "repository": "https://github.com/khast3x/h8mail",
+  "categories": [
+    "Data-Acquisition-OSINT"
+  ],
+  "description": "An upstream repository listed in data acquisition. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Data-Acquisition-OSINT",
+  "license": {
+    "label": "BSD-style — check upstream terms",
+    "reference": "https://github.com/khast3x/h8mail/blob/HEAD/LICENSE",
+    "verified": true
+  },
+  "featured": true
+}
