@@ -1,0 +1,17 @@
+{
+  "id": "joelgmsec--leaksearch",
+  "name": "LeakSearch",
+  "owner": "JoelGMSec",
+  "repository": "https://github.com/JoelGMSec/LeakSearch",
+  "categories": [
+    "Data-Acquisition-OSINT"
+  ],
+  "description": "An upstream repository listed in data acquisition. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Data-Acquisition-OSINT",
+  "license": {
+    "label": "GPL-3.0 — check upstream terms",
+    "reference": "https://github.com/JoelGMSec/LeakSearch/blob/HEAD/LICENSE",
+    "verified": true
+  },
+  "featured": false
+}
