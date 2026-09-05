@@ -1,0 +1,17 @@
+{
+  "id": "kr0wz--snapintel",
+  "name": "SnapIntel",
+  "owner": "Kr0wZ",
+  "repository": "https://github.com/Kr0wZ/SnapIntel",
+  "categories": [
+    "Social-Media-OSINT"
+  ],
+  "description": "An upstream repository listed in social media. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Kr0wZ/SnapIntel",
+    "verified": false
+  },
+  "featured": false
+}
