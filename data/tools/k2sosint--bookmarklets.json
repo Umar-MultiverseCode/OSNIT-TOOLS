@@ -1,0 +1,17 @@
+{
+  "id": "k2sosint--bookmarklets",
+  "name": "Bookmarklets",
+  "owner": "K2SOsint",
+  "repository": "https://github.com/K2SOsint/Bookmarklets",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/K2SOsint/Bookmarklets",
+    "verified": false
+  },
+  "featured": false
+}
