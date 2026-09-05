@@ -1,0 +1,17 @@
+{
+  "id": "jordanwildon--telepathy",
+  "name": "Telepathy",
+  "owner": "jordanwildon",
+  "repository": "https://github.com/jordanwildon/Telepathy",
+  "categories": [
+    "Telegram-OSINT"
+  ],
+  "description": "An upstream repository listed in telegram. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
+  "license": {
+    "label": "MIT",
+    "reference": "https://github.com/jordanwildon/Telepathy/blob/HEAD/LICENSE.txt",
+    "verified": true
+  },
+  "featured": true
+}
