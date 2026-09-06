@@ -1,0 +1,17 @@
+{
+  "id": "megadose--ignorant",
+  "name": "ignorant",
+  "owner": "megadose",
+  "repository": "https://github.com/megadose/ignorant",
+  "categories": [
+    "Telephone-OSINT"
+  ],
+  "description": "An upstream repository listed in telephone. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telephone-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/megadose/ignorant",
+    "verified": false
+  },
+  "featured": false
+}
