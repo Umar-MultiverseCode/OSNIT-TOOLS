@@ -1,0 +1,17 @@
+{
+  "id": "lanmaster53--recon-ng",
+  "name": "recon-ng",
+  "owner": "lanmaster53",
+  "repository": "https://github.com/lanmaster53/recon-ng",
+  "categories": [
+    "GitHub-OSINT-Accounts"
+  ],
+  "description": "An upstream repository listed in github researchers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/lanmaster53/recon-ng",
+    "verified": false
+  },
+  "featured": false
+}
