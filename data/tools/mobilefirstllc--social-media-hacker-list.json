@@ -1,0 +1,17 @@
+{
+  "id": "mobilefirstllc--social-media-hacker-list",
+  "name": "social-media-hacker-list",
+  "owner": "MobileFirstLLC",
+  "repository": "https://github.com/MobileFirstLLC/social-media-hacker-list",
+  "categories": [
+    "Social-Media-OSINT"
+  ],
+  "description": "An upstream repository listed in social media. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/MobileFirstLLC/social-media-hacker-list",
+    "verified": false
+  },
+  "featured": false
+}
