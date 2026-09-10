@@ -1,0 +1,17 @@
+{
+  "id": "mxrch--ghunt",
+  "name": "GHunt",
+  "owner": "mxrch",
+  "repository": "https://github.com/mxrch/GHunt",
+  "categories": [
+    "Email-Username-OSINT"
+  ],
+  "description": "An upstream repository listed in email & usernames. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Email-Username-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/mxrch/GHunt",
+    "verified": false
+  },
+  "featured": false
+}
