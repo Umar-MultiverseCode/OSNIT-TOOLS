@@ -1,0 +1,17 @@
+{
+  "id": "mudler--localai",
+  "name": "LocalAI",
+  "owner": "mudler",
+  "repository": "https://github.com/mudler/LocalAI",
+  "categories": [
+    "AI-Resources"
+  ],
+  "description": "An upstream repository listed in ai resources. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/AI-Resources",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/mudler/LocalAI",
+    "verified": false
+  },
+  "featured": true
+}
