@@ -1,0 +1,17 @@
+{
+  "id": "paulpogoda--osint-cse",
+  "name": "OSINT-CSE",
+  "owner": "paulpogoda",
+  "repository": "https://github.com/paulpogoda/OSINT-CSE",
+  "categories": [
+    "Custom-Search-Engines"
+  ],
+  "description": "An upstream repository listed in custom search engines. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Custom-Search-Engines",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/paulpogoda/OSINT-CSE",
+    "verified": false
+  },
+  "featured": false
+}
