@@ -1,0 +1,17 @@
+{
+  "id": "owez--yark",
+  "name": "yark",
+  "owner": "Owez",
+  "repository": "https://github.com/Owez/yark",
+  "categories": [
+    "YouTube-Video-OSINT"
+  ],
+  "description": "An upstream repository listed in youtube & video. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/YouTube-Video-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Owez/yark",
+    "verified": false
+  },
+  "featured": false
+}
