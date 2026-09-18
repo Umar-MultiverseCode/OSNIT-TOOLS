@@ -1,0 +1,17 @@
+{
+  "id": "s0md3v--photon",
+  "name": "Photon",
+  "owner": "s0md3v",
+  "repository": "https://github.com/s0md3v/Photon",
+  "categories": [
+    "Website-OSINT"
+  ],
+  "description": "An upstream repository listed in website. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Website-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/s0md3v/Photon",
+    "verified": false
+  },
+  "featured": false
+}
