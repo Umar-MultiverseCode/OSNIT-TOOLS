@@ -1,0 +1,17 @@
+{
+  "id": "seekr-osint--seekr",
+  "name": "seekr",
+  "owner": "seekr-osint",
+  "repository": "https://github.com/seekr-osint/seekr",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/seekr-osint/seekr",
+    "verified": false
+  },
+  "featured": false
+}
