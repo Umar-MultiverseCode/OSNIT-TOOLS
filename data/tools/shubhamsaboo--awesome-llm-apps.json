@@ -1,0 +1,17 @@
+{
+  "id": "shubhamsaboo--awesome-llm-apps",
+  "name": "awesome-llm-apps",
+  "owner": "Shubhamsaboo",
+  "repository": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "categories": [
+    "AI-Resources"
+  ],
+  "description": "An upstream repository listed in ai resources. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/AI-Resources",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "verified": false
+  },
+  "featured": false
+}
