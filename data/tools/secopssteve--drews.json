@@ -1,0 +1,17 @@
+{
+  "id": "secopssteve--drews",
+  "name": "DREWS",
+  "owner": "SecOpsSteve",
+  "repository": "https://github.com/SecOpsSteve/DREWS",
+  "categories": [
+    "Website-OSINT"
+  ],
+  "description": "An upstream repository listed in website. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Website-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/SecOpsSteve/DREWS",
+    "verified": false
+  },
+  "featured": false
+}
