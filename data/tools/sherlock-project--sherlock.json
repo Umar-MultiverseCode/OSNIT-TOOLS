@@ -1,0 +1,18 @@
+{
+  "id": "sherlock-project--sherlock",
+  "name": "sherlock",
+  "owner": "sherlock-project",
+  "repository": "https://github.com/sherlock-project/sherlock",
+  "categories": [
+    "Email-Username-OSINT",
+    "Social-Media-OSINT"
+  ],
+  "description": "Find public account pages that match a username across hundreds of websites. Verify each match at the original source.",
+  "source": "https://github.com/The-Osint-Toolbox/Email-Username-OSINT",
+  "license": {
+    "label": "MIT",
+    "reference": "https://github.com/sherlock-project/sherlock/blob/HEAD/LICENSE",
+    "verified": true
+  },
+  "featured": true
+}
