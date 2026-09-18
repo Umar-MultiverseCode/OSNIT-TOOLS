@@ -1,0 +1,17 @@
+{
+  "id": "shad0w-ops--h.i.v.e",
+  "name": "H.I.V.E",
+  "owner": "Shad0w-ops",
+  "repository": "https://github.com/Shad0w-ops/H.I.V.E",
+  "categories": [
+    "GitHub-OSINT-Accounts"
+  ],
+  "description": "An upstream repository listed in github researchers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Shad0w-ops/H.I.V.E",
+    "verified": false
+  },
+  "featured": false
+}
