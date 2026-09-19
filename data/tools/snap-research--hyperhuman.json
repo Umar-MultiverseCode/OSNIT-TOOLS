@@ -1,0 +1,17 @@
+{
+  "id": "snap-research--hyperhuman",
+  "name": "HyperHuman",
+  "owner": "snap-research",
+  "repository": "https://github.com/snap-research/HyperHuman",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/snap-research/HyperHuman",
+    "verified": false
+  },
+  "featured": false
+}
