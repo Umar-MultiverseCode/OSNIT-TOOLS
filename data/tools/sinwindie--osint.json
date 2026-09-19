@@ -1,0 +1,18 @@
+{
+  "id": "sinwindie--osint",
+  "name": "OSINT",
+  "owner": "sinwindie",
+  "repository": "https://github.com/sinwindie/OSINT",
+  "categories": [
+    "Social-Media-OSINT",
+    "OSINT-Communities-Practitioners"
+  ],
+  "description": "An upstream repository listed in social media. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Social-Media-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/sinwindie/OSINT",
+    "verified": false
+  },
+  "featured": false
+}
