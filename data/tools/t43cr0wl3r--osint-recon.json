@@ -1,0 +1,17 @@
+{
+  "id": "t43cr0wl3r--osint-recon",
+  "name": "OSINT-RECON",
+  "owner": "T43cr0wl3r",
+  "repository": "https://github.com/T43cr0wl3r/OSINT-RECON",
+  "categories": [
+    "GitHub-OSINT-Accounts"
+  ],
+  "description": "An upstream repository listed in github researchers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/T43cr0wl3r/OSINT-RECON",
+    "verified": false
+  },
+  "featured": false
+}
