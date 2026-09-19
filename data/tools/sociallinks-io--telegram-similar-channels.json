@@ -1,0 +1,17 @@
+{
+  "id": "sociallinks-io--telegram-similar-channels",
+  "name": "telegram-similar-channels",
+  "owner": "SocialLinks-IO",
+  "repository": "https://github.com/SocialLinks-IO/telegram-similar-channels",
+  "categories": [
+    "Telegram-OSINT"
+  ],
+  "description": "An upstream repository listed in telegram. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/SocialLinks-IO/telegram-similar-channels",
+    "verified": false
+  },
+  "featured": false
+}
