@@ -1,0 +1,17 @@
+{
+  "id": "the-osint-newsletter--bouncer",
+  "name": "bouncer",
+  "owner": "The-OSINT-Newsletter",
+  "repository": "https://github.com/The-OSINT-Newsletter/bouncer",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/The-OSINT-Newsletter/bouncer",
+    "verified": false
+  },
+  "featured": false
+}
