@@ -1,0 +1,17 @@
+{
+  "id": "te-k--telegram-transparency",
+  "name": "telegram-transparency",
+  "owner": "Te-k",
+  "repository": "https://github.com/Te-k/telegram-transparency",
+  "categories": [
+    "Telegram-OSINT"
+  ],
+  "description": "An upstream repository listed in telegram. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Te-k/telegram-transparency",
+    "verified": false
+  },
+  "featured": false
+}
