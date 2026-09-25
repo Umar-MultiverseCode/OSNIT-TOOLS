@@ -1,0 +1,17 @@
+{
+  "id": "tobee1406--awesome-google-dorks",
+  "name": "Awesome-Google-Dorks",
+  "owner": "Tobee1406",
+  "repository": "https://github.com/Tobee1406/Awesome-Google-Dorks",
+  "categories": [
+    "OSINT-Advanced-Searching"
+  ],
+  "description": "An upstream repository listed in osint advanced searching. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Advanced-Searching",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/Tobee1406/Awesome-Google-Dorks",
+    "verified": false
+  },
+  "featured": false
+}
