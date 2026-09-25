@@ -1,0 +1,17 @@
+{
+  "id": "toddmotto--public-apis",
+  "name": "public-apis",
+  "owner": "toddmotto",
+  "repository": "https://github.com/toddmotto/public-apis",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/toddmotto/public-apis",
+    "verified": false
+  },
+  "featured": false
+}
