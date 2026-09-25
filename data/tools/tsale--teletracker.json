@@ -1,0 +1,17 @@
+{
+  "id": "tsale--teletracker",
+  "name": "TeleTracker",
+  "owner": "tsale",
+  "repository": "https://github.com/tsale/TeleTracker",
+  "categories": [
+    "Telegram-OSINT"
+  ],
+  "description": "An upstream repository listed in telegram. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Telegram-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/tsale/TeleTracker",
+    "verified": false
+  },
+  "featured": false
+}
