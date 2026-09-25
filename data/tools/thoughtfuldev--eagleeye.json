@@ -1,0 +1,17 @@
+{
+  "id": "thoughtfuldev--eagleeye",
+  "name": "EagleEye",
+  "owner": "ThoughtfulDev",
+  "repository": "https://github.com/ThoughtfulDev/EagleEye",
+  "categories": [
+    "Image-Research-OSINT"
+  ],
+  "description": "An upstream repository listed in image research. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Image-Research-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/ThoughtfulDev/EagleEye",
+    "verified": false
+  },
+  "featured": false
+}
