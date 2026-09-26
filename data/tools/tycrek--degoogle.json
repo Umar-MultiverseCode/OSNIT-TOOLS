@@ -1,0 +1,17 @@
+{
+  "id": "tycrek--degoogle",
+  "name": "degoogle",
+  "owner": "tycrek",
+  "repository": "https://github.com/tycrek/degoogle",
+  "categories": [
+    "Privacy-Infosec-Tools-Resources"
+  ],
+  "description": "An upstream repository listed in privacy & infosec. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Privacy-Infosec-Tools-Resources",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/tycrek/degoogle",
+    "verified": false
+  },
+  "featured": false
+}
