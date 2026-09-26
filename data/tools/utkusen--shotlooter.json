@@ -1,0 +1,17 @@
+{
+  "id": "utkusen--shotlooter",
+  "name": "shotlooter",
+  "owner": "utkusen",
+  "repository": "https://github.com/utkusen/shotlooter",
+  "categories": [
+    "GitHub-OSINT-Accounts"
+  ],
+  "description": "An upstream repository listed in github researchers. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/GitHub-OSINT-Accounts",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/utkusen/shotlooter",
+    "verified": false
+  },
+  "featured": false
+}
