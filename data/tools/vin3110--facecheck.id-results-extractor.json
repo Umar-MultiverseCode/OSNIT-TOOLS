@@ -1,0 +1,17 @@
+{
+  "id": "vin3110--facecheck.id-results-extractor",
+  "name": "facecheck.id-results-extractor",
+  "owner": "vin3110",
+  "repository": "https://github.com/vin3110/facecheck.id-results-extractor",
+  "categories": [
+    "Image-Research-OSINT"
+  ],
+  "description": "An upstream repository listed in image research. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Image-Research-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/vin3110/facecheck.id-results-extractor",
+    "verified": false
+  },
+  "featured": false
+}
