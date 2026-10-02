@@ -1,0 +1,17 @@
+{
+  "id": "webbreacher--obsidian-osint-templates",
+  "name": "obsidian-osint-templates",
+  "owner": "WebBreacher",
+  "repository": "https://github.com/WebBreacher/obsidian-osint-templates",
+  "categories": [
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in research utilities. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/OSINT-Toolbox-Peripherals",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/WebBreacher/obsidian-osint-templates",
+    "verified": false
+  },
+  "featured": false
+}
