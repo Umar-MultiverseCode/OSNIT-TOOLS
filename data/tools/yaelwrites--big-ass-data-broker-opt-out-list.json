@@ -1,0 +1,17 @@
+{
+  "id": "yaelwrites--big-ass-data-broker-opt-out-list",
+  "name": "Big-Ass-Data-Broker-Opt-Out-List",
+  "owner": "yaelwrites",
+  "repository": "https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List",
+  "categories": [
+    "Privacy-Opt-Out"
+  ],
+  "description": "An upstream repository listed in privacy opt out. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/Privacy-Opt-Out",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List",
+    "verified": false
+  },
+  "featured": false
+}
