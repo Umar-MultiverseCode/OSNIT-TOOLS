@@ -1,0 +1,18 @@
+{
+  "id": "yt-dlp--yt-dlp",
+  "name": "yt-dlp",
+  "owner": "yt-dlp",
+  "repository": "https://github.com/yt-dlp/yt-dlp",
+  "categories": [
+    "YouTube-Video-OSINT",
+    "OSINT-Toolbox-Peripherals"
+  ],
+  "description": "An upstream repository listed in youtube & video. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/YouTube-Video-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/yt-dlp/yt-dlp",
+    "verified": false
+  },
+  "featured": false
+}
