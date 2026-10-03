@@ -1,0 +1,17 @@
+{
+  "id": "ytdl-org--youtube-dl",
+  "name": "youtube-dl",
+  "owner": "ytdl-org",
+  "repository": "https://github.com/ytdl-org/youtube-dl",
+  "categories": [
+    "YouTube-Video-OSINT"
+  ],
+  "description": "An upstream repository listed in youtube & video. Visit its documentation for features, setup and releases.",
+  "source": "https://github.com/The-Osint-Toolbox/YouTube-Video-OSINT",
+  "license": {
+    "label": "Unverified",
+    "reference": "https://github.com/ytdl-org/youtube-dl",
+    "verified": false
+  },
+  "featured": false
+}
