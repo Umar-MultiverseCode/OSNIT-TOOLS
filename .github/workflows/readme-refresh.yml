@@ -1,0 +1,37 @@
+name: Refresh README field notes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 6 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: readme-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'Umar-MultiverseCode/OSNIT-TOOLS'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run readme:refresh
+      - run: npm test
+      - name: Commit refreshed field notes
+        shell: bash
+        run: |
+          git add README.md assets/catalog-metrics.svg
+          if git diff --cached --quiet; then
+            echo "README already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh weekly research field notes and catalogue metrics" -m "Rotate the automatically generated project spotlight and derive directory metrics from the current catalogue. Preserve original creator credits and update only the generated README section and metrics artwork."
+          git push origin HEAD:main

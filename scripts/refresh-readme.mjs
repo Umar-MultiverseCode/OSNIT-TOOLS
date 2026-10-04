@@ -1,0 +1,30 @@
+import { readFile, readdir, mkdir, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root = fileURLToPath(new URL('../', import.meta.url));
+const categories = JSON.parse(await readFile(path.join(root, 'data/categories.json'), 'utf8'));
+const resources = JSON.parse(await readFile(path.join(root, 'data/resources.json'), 'utf8'));
+const tools = [];
+for (const name of (await readdir(path.join(root, 'data/tools'))).sort()) {
+  if (name.endsWith('.json')) tools.push(JSON.parse(await readFile(path.join(root, 'data/tools', name), 'utf8')));
+}
+const now = process.env.README_DATE ? new Date(process.env.README_DATE) : new Date();
+if (!Number.isFinite(now.getTime())) throw new Error('Invalid README_DATE');
+const monday = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+monday.setUTCDate(monday.getUTCDate() - (monday.getUTCDay() + 6) % 7);
+const week = Math.floor(monday.getTime() / (7 * 24 * 60 * 60 * 1000));
+const featured = tools.filter(tool => tool.featured);
+const pool = featured.length >= 3 ? featured : tools;
+const selected = [0, 1, 2].map(offset => pool[(week * 3 + offset) % pool.length]);
+const nameFor = id => categories.find(category => category.id === id)?.name || id;
+const block = `<!-- FIELD-NOTES:START -->\n**Week of ${monday.toISOString().slice(0, 10)} · three original projects to explore**\n\n| Project | Research direction | Creator |\n| --- | --- | --- |\n${selected.map(tool => `| [${tool.name}](docs/tools/${tool.id}.md) | ${nameFor(tool.categories[0])} | [${tool.owner}](https://github.com/${tool.owner}) |`).join('\n')}\n\nOpen a field guide for the source, clone command and upstream license. This rotation highlights catalogue entries; it does not certify their availability or functionality.\n<!-- FIELD-NOTES:END -->`;
+const readmePath = path.join(root, 'README.md');
+const readme = await readFile(readmePath, 'utf8');
+const marker = /<!-- FIELD-NOTES:START -->[\s\S]*?<!-- FIELD-NOTES:END -->/;
+if (!marker.test(readme)) throw new Error('README spotlight markers are missing');
+await writeFile(readmePath, readme.replace(marker, block));
+const countItems = [ ['RESEARCH AREAS', categories.length], ['REPOSITORIES', tools.length], ['UNIQUE LINKS', resources.length] ];
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="122" viewBox="0 0 1200 122" role="img" aria-label="${categories.length} research areas, ${tools.length} repositories, ${resources.length} unique links"><rect width="1200" height="122" fill="#101411" stroke="#354337"/>${countItems.map(([label, count], i) => `<path d="M${i * 400} 0v122" stroke="#354337"/><text x="${i * 400 + 28}" y="61" font-family="Arial,Helvetica,sans-serif" font-size="42" fill="#a8e381">${count.toLocaleString('en-US')}</text><text x="${i * 400 + 28}" y="94" font-family="monospace" font-size="12" letter-spacing="2" fill="#97a98f">${label}</text>`).join('')}</svg>\n`;
+await mkdir(path.join(root, 'assets'), { recursive: true });
+await writeFile(path.join(root, 'assets/catalog-metrics.svg'), svg);
+console.log(`README refreshed for ${monday.toISOString().slice(0, 10)} — catalogue metrics and three project spotlights.`);

@@ -10,3 +10,11 @@ This repository contains independently written website code, editorial descripti
 The root MIT license covers this project's original code and documentation. It does not relicense the linked projects, websites, trademarks or other third-party material. A missing or unverified upstream license is labeled explicitly and does not grant redistribution rights. Check each upstream project's license before copying or distributing its software.
 
 License labels are an initial identification from locally available license files, not a complete audit of dependencies or all files in a project. External resources may require accounts, API access or payment; availability has not been checked for every listing.
+
+## README artwork and live components
+
+The terminal GIF and catalogue metrics SVG are original code-generated artwork for this project. The animation depicts an index preview and does not perform a network scan.
+
+Live GitHub badge images are supplied by [Shields.io](https://github.com/badges/shields). The deployment button is supplied by [Vercel](https://vercel.com). Those services and their names are credited to their providers; using their embedded images does not imply affiliation.
+
+The weekly field-note rotation and metrics refresh are generated from this repository's own catalogue by `scripts/refresh-readme.mjs`. The scheduled workflow uses GitHub Actions and its normal token, records its own bot identity, and makes ordinary commits with current timestamps.

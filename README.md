@@ -1,27 +1,115 @@
-<p align="center"><img src="assets/banner.svg" alt="OSNIT TOOLS — Follow the evidence. An independent open-source research directory with 34 categories." width="100%"></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/banner.svg">
+    <img src="assets/terminal.gif" alt="OSNIT Tools research workbench. Animated index preview with original creator credits." width="100%">
+  </picture>
+</p>
 
-<p align="center"><strong>34 categories · 177 repository entries · 1,846 unique resource links</strong></p>
-<p align="center"><a href="#explore-the-directory">Explore the directory</a> · <a href="#run-the-website">Run locally</a> · <a href="CONTRIBUTING.md">Contribute</a> · <a href="ATTRIBUTION.md">Credits & licenses</a></p>
+<p align="center">
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/Umar-MultiverseCode/OSNIT-TOOLS/checks.yml?branch=main&amp;style=flat-square&amp;label=BUILD&amp;labelColor=101411" alt="Live directory checks status"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/stargazers"><img src="https://img.shields.io/github/stars/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=STARS&amp;labelColor=101411&amp;color=a8e381" alt="GitHub stars"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/forks"><img src="https://img.shields.io/github/forks/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=FORKS&amp;labelColor=101411&amp;color=a8e381" alt="GitHub forks"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/issues"><img src="https://img.shields.io/github/issues/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=OPEN%20ISSUES&amp;labelColor=101411&amp;color=ed633c" alt="GitHub open issues"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/commits/main"><img src="https://img.shields.io/github/last-commit/Umar-MultiverseCode/OSNIT-TOOLS/main?style=flat-square&amp;label=UPDATED&amp;labelColor=101411&amp;color=a8e381" alt="GitHub last commit"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=SITE%20LICENSE&amp;labelColor=101411&amp;color=a8e381" alt="Original website license"></a>
+</p>
+
+<p align="center"><a href="#boot-sequence">BOOT</a> / <a href="#field-notes">FIELD NOTES</a> / <a href="#explore-the-directory">RESEARCH AREAS</a> / <a href="#deploy-the-workbench">DEPLOY</a> / <a href="CONTRIBUTING.md">CONTRIBUTE</a></p>
 
 # OSNIT TOOLS
 
-A considered directory for open-source research. Find a useful starting point across usernames, public records, imagery, archives, domains and more. Organized by [Umar MultiverseCode](https://github.com/Umar-MultiverseCode), with original creators credited at every step.
+### Open sources. Sharp questions. Follow the evidence.
 
-**Choose a direction. Find your tools. Follow the evidence.**
+A public research workbench built and organized by **[Umar MultiverseCode](https://github.com/Umar-MultiverseCode)**. One place to discover tools, trace original sources and put together a toolkit that fits your question.
 
-This is a directory and independently written website. Tool implementations remain in their original repositories, with their original licenses. The catalogue does not claim that every listing is installable, available, free or tested.
+No account needed for this directory. No database. No trackers in the website. Just an organized index, an independently written interface and the people who built the tools behind it.
 
-## The website
+<p align="center"><img src="assets/catalog-metrics.svg" alt="Catalogue size derived from the directory data" width="100%"></p>
 
-An editorial charcoal-and-orange interface with rectangular controls, strong typography and responsive layouts. No external font downloads, trackers, accounts or runtime services.
+> **The organizer builds the workbench. The original creators build the tools.** Every repository entry preserves its creator, source and upstream license reference.
 
-- Search by tool name, keyword, creator or category.
-- Combine 34 category filters with repositories, websites, Telegram resources, videos and extensions.
-- Switch between grid and list views, inspect source credits, and copy repository clone commands.
-- Save a personal toolkit in your browser and export it as JSON.
-- Share filtered directory URLs and browse comfortably on mobile.
+## Boot sequence
 
-Saved entries stay in your browser. External resource links open the original website; searches in this directory do not query or investigate individuals.
+```sh
+# Download this directory
+ git clone https://github.com/Umar-MultiverseCode/OSNIT-TOOLS.git
+ cd OSNIT-TOOLS
+
+# Build and start the website -- Node.js 20 or newer
+ npm run build
+ npm run dev
+```
+
+Open **http://127.0.0.1:4173**. Press **/** to jump into search.
+
+| Control | What it does |
+| --- | --- |
+| Keyword search | Find a tool, creator, source or research topic |
+| Category + type filters | Narrow the collection without losing your direction |
+| Field notes | Inspect original creator credits, source links and license status |
+| Save + export | Build a private browser-local toolkit and download it as JSON |
+| Grid / list | Choose a view that suits the way you work |
+| Shareable filters | Send a category or search URL to someone else |
+
+<details>
+<summary><strong>GET A TOOL / download source without running unknown setup scripts</strong></summary>
+
+```sh
+node scripts/get-tool.mjs sherlock-project--sherlock
+```
+
+The source lands in the ignored `.local/tools` folder. Follow the **original project's README** for dependencies, operating-system support and configuration. Repository entries include software, guides and resource collections; a listing does not certify that a project is currently working.
+
+</details>
+
+## Field notes
+
+A small discovery queue that rotates weekly. Follow a project back to its original author, read the documentation, then decide whether it fits your research.
+
+<!-- FIELD-NOTES:START -->
+**Week of 2026-09-28 · three original projects to explore**
+
+| Project | Research direction | Creator |
+| --- | --- | --- |
+| [skytrack](docs/tools/ang13t--skytrack.md) | Flight & marine | [ANG13T](https://github.com/ANG13T) |
+| [Telepathy](docs/tools/jordanwildon--telepathy.md) | Telegram | [jordanwildon](https://github.com/jordanwildon) |
+| [h8mail](docs/tools/khast3x--h8mail.md) | Data Acquisition | [khast3x](https://github.com/khast3x) |
+
+Open a field guide for the source, clone command and upstream license. This rotation highlights catalogue entries; it does not certify their availability or functionality.
+<!-- FIELD-NOTES:END -->
+
+<details>
+<summary><strong>LIVE SYSTEMS / what actually updates</strong></summary>
+
+- **Live GitHub badges** reflect workflow checks, stars, forks, open issues, the last commit and the website license. Values come from Shields.io and may be cached; they are not manually inflated.
+- **Weekly field notes** rotate through three featured repository entries every Monday using the `Refresh README field notes` workflow. The workflow can also be run manually from GitHub Actions.
+- **Catalogue metrics** are calculated from the JSON data during the same refresh, keeping the original metrics artwork in sync with the collection.
+- **Animated terminal artwork** is an original looping illustration of the index. It is not a live scan. A static banner is included for reduced-motion rendering.
+
+The scheduled refresh uses GitHub's normal workflow token. No extra API key or external account is required. GitHub may delay scheduled jobs, and branch protection can require maintainers to review generated changes. The refresh bot uses its own identity and real timestamps.
+
+To refresh locally:
+
+```sh
+npm run readme:refresh
+```
+
+Only the generated field-notes section and `assets/catalog-metrics.svg` are changed.
+
+</details>
+
+## Work the question
+
+```mermaid
+flowchart LR
+    A[Define the question] --> B[Choose a research area]
+    B --> C[Inspect the original source]
+    C --> D[Record evidence and context]
+    D --> E[Cross-check independently]
+    E --> F[Keep what you can support]
+```
+
+A matching username is a lead, not proof of identity. A search result is a source to inspect, not a conclusion to copy.
 
 ## Explore the directory
 
@@ -85,55 +173,71 @@ Expand a collection to find its category guides. Individual guides link to the o
 
 </details>
 
-## Run the website
+## Deploy the workbench
 
-Requires Node.js 20 or newer. The site has no third-party npm dependencies.
+<p><a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUmar-MultiverseCode%2FOSNIT-TOOLS"><img src="https://vercel.com/button" alt="Deploy OSNIT Tools on Vercel"></a></p>
 
-```shell
+| Vercel setting | Value |
+| --- | --- |
+| Root Directory | `.` -- repository root |
+| Framework Preset | `Other` |
+| Build Command | `npm run build` |
+| Output Directory | `dist` |
+| Environment variables | None required |
+
+The included `vercel.json` handles the build settings. After deployment, Vercel gives you the live URL. Interactive search and saved toolkits run on the website; GitHub renders the expandable collections, diagrams and image badges in this README.
+
+## Inside the workbench
+
+```text
+OSNIT-TOOLS/
++-- web/                    Interface and client-side filters
++-- data/
+|   +-- categories.json     Research areas and collection credits
+|   +-- resources.json      Deduplicated source links
+|   +-- tools/              One original-project manifest per repository
++-- docs/
+|   +-- categories/         Category field guides
+|   +-- tools/              Creator credits, clone commands and license references
++-- assets/                 Original terminal artwork and catalogue metrics
++-- scripts/                Build, preview, download and README refresh helpers
++-- tests/                  Catalogue integrity and filtering checks
++-- .github/workflows/      Directory checks and weekly field-note rotation
+```
+
+<details>
+<summary><strong>MAINTAINER CHECKLIST / before a pull request</strong></summary>
+
+```sh
+npm test
+npm run readme:refresh
 npm run build
 npm run dev
 ```
 
-Open **http://127.0.0.1:4173**. Run `npm test` to check catalogue integrity and filtering behavior. Press `/` in the directory to focus search.
+Check creator credit, the original URL, category IDs and the upstream license reference. For interface changes, check search, saved entries, keyboard access and mobile layout. Keep the rectangular design intact.
 
-## Deploy on Vercel
+The website has **zero third-party npm dependencies**. README badges use external image services; saved website resources stay in the reader's browser.
 
-[Deploy this repository on Vercel ↗](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUmar-MultiverseCode%2FOSNIT-TOOLS)
+</details>
 
-Import the GitHub repository, choose the **Other** framework preset, and use the repository root. The included `vercel.json` sets `npm run build` as the build command and `dist` as the output directory. No environment variables or database are required. Vercel supplies the live URL after deployment.
+## Build with us
 
-## Repository map
+| Your next move | Start here |
+| --- | --- |
+| Add a useful source | [Suggest a resource](https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/issues/new?template=resource.yml) |
+| Found a dead link | [Report a broken link](https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/issues/new?template=broken-link.yml) |
+| Improve the directory | [Contribution guide](CONTRIBUTING.md) |
+| Inspect original credits | [Attribution and license boundaries](ATTRIBUTION.md) |
 
-```text
-web/                  Website interface and client-side filtering
-data/categories.json  Category descriptions and collection credits
-data/resources.json   Deduplicated website and resource links
-data/tools/           One manifest per original repository
-docs/categories/      Browsable category guides
-docs/tools/           One credited guide per repository
-scripts/              Build, preview and source-download helpers
-tests/                Catalogue integrity and filter tests
-assets/               Original README artwork
-```
+**A star helps people discover the directory. A well-sourced contribution makes it better.**
 
-## Get an individual tool
+## Credits and licenses
 
-Open its guide under `docs/tools`, then follow the original project's README. To download its source into an ignored local workspace:
+The starting collection is credited to **[The OSINT Toolbox](https://github.com/The-Osint-Toolbox)**. Listed projects belong to their original authors. The website and original documentation use the [MIT license](LICENSE); linked projects retain their own upstream terms. Missing or unverified licenses remain labeled explicitly.
 
-```shell
-node scripts/get-tool.mjs sherlock-project--sherlock
-```
+Live badge infrastructure comes from [Shields.io](https://github.com/badges/shields). GitHub Actions drives the weekly refresh; Mermaid renders the research flow. Terminal artwork and metrics graphics are original assets created for this project. See [ATTRIBUTION.md](ATTRIBUTION.md).
 
-This downloads source only. It does not automatically execute third-party setup scripts, install dependencies or configure accounts.
+---
 
-## Contributing
-
-[Suggest a resource](https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/issues/new?template=resource.yml), [report a broken link](https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/issues/new?template=broken-link.yml), or send a pull request. Add the original author, category and source URL. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the manifest format and review steps.
-
-GitHub README files support expandable sections and links; interactive searching and saved toolkits run on the website.
-
-## Ownership and licenses
-
-The initial collection comes from [The OSINT Toolbox](https://github.com/The-Osint-Toolbox). We organize links; we do not claim authorship of the listed tools.
-
-Original website code and documentation use the [MIT license](LICENSE). Linked tools retain their own licenses. Unverified license labels are explicit. See [ATTRIBUTION.md](ATTRIBUTION.md) for the boundaries of this project's license.
+<p align="center"><strong>BUILD IN THE OPEN. FOLLOW THE EVIDENCE. KEEP LOOKING.</strong><br><sub>Organized by Umar MultiverseCode / OSNIT TOOLS</sub></p>
