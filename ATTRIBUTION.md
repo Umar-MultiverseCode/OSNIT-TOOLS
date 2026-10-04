@@ -13,8 +13,8 @@ License labels are an initial identification from locally available license file
 
 ## README artwork and live components
 
-The terminal GIF and catalogue metrics SVG are original code-generated artwork for this project. The animation depicts an index preview and does not perform a network scan.
+The terminal GIF, research-process animation, navigation buttons, section panels and catalogue metrics SVG are original code-generated artwork for this project. The animation depicts an index preview and does not perform a network scan.
 
-Live GitHub badge images are supplied by [Shields.io](https://github.com/badges/shields). The deployment button is supplied by [Vercel](https://vercel.com). Those services and their names are credited to their providers; using their embedded images does not imply affiliation.
+Navigation buttons use original locally stored artwork and link to GitHub repository pages and Vercel deployment. They do not display live statistics or imply affiliation with those providers.
 
 The weekly field-note rotation and metrics refresh are generated from this repository's own catalogue by `scripts/refresh-readme.mjs`. The scheduled workflow uses GitHub Actions and its normal token, records its own bot identity, and makes ordinary commits with current timestamps.

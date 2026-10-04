@@ -6,12 +6,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/Umar-MultiverseCode/OSNIT-TOOLS/checks.yml?branch=main&amp;style=flat-square&amp;label=BUILD&amp;labelColor=101411" alt="Live directory checks status"></a>
-  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/stargazers"><img src="https://img.shields.io/github/stars/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=STARS&amp;labelColor=101411&amp;color=a8e381" alt="GitHub stars"></a>
-  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/forks"><img src="https://img.shields.io/github/forks/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=FORKS&amp;labelColor=101411&amp;color=a8e381" alt="GitHub forks"></a>
-  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/issues"><img src="https://img.shields.io/github/issues/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=OPEN%20ISSUES&amp;labelColor=101411&amp;color=ed633c" alt="GitHub open issues"></a>
-  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/commits/main"><img src="https://img.shields.io/github/last-commit/Umar-MultiverseCode/OSNIT-TOOLS/main?style=flat-square&amp;label=UPDATED&amp;labelColor=101411&amp;color=a8e381" alt="GitHub last commit"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Umar-MultiverseCode/OSNIT-TOOLS?style=flat-square&amp;label=SITE%20LICENSE&amp;labelColor=101411&amp;color=a8e381" alt="Original website license"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/actions/workflows/checks.yml"><img src="assets/button-checks.svg" width="150" alt="Build checks"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/stargazers"><img src="assets/button-stars.svg" width="150" alt="Stargazers"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/forks"><img src="assets/button-forks.svg" width="150" alt="Forks"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/issues"><img src="assets/button-issues.svg" width="150" alt="Open issues"></a>
+  <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/commits/main"><img src="assets/button-history.svg" width="150" alt="Commit history"></a>
+  <a href="LICENSE"><img src="assets/button-license.svg" width="150" alt="MIT license"></a>
 </p>
 
 <p align="center"><a href="#boot-sequence">BOOT</a> / <a href="#field-notes">FIELD NOTES</a> / <a href="#explore-the-directory">RESEARCH AREAS</a> / <a href="#deploy-the-workbench">DEPLOY</a> / <a href="CONTRIBUTING.md">CONTRIBUTE</a></p>
@@ -27,6 +27,8 @@ No account needed for this directory. No database. No trackers in the website. J
 <p align="center"><img src="assets/catalog-metrics.svg" alt="Catalogue size derived from the directory data" width="100%"></p>
 
 > **The organizer builds the workbench. The original creators build the tools.** Every repository entry preserves its creator, source and upstream license reference.
+
+<p><img src="assets/toolkit-panel.svg" alt="Discover sources, inspect creators and save a personal toolkit" width="100%"></p>
 
 ## Boot sequence
 
@@ -81,7 +83,7 @@ Open a field guide for the source, clone command and upstream license. This rota
 <details>
 <summary><strong>LIVE SYSTEMS / what actually updates</strong></summary>
 
-- **Live GitHub badges** reflect workflow checks, stars, forks, open issues, the last commit and the website license. Values come from Shields.io and may be cached; they are not manually inflated.
+- **Repository buttons** open the actual GitHub build results, stars, forks, issues and commit history. Their artwork is stored in this repository, so the README does not rely on an external badge image service. They are navigation links, not live counters.
 - **Weekly field notes** rotate through three featured repository entries every Monday using the `Refresh README field notes` workflow. The workflow can also be run manually from GitHub Actions.
 - **Catalogue metrics** are calculated from the JSON data during the same refresh, keeping the original metrics artwork in sync with the collection.
 - **Animated terminal artwork** is an original looping illustration of the index. It is not a live scan. A static banner is included for reduced-motion rendering.
@@ -100,18 +102,18 @@ Only the generated field-notes section and `assets/catalog-metrics.svg` are chan
 
 ## Work the question
 
-```mermaid
-flowchart LR
-    A[Define the question] --> B[Choose a research area]
-    B --> C[Inspect the original source]
-    C --> D[Record evidence and context]
-    D --> E[Cross-check independently]
-    E --> F[Keep what you can support]
-```
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/research-flow.png">
+  <img src="assets/research-flow.gif" alt="Four research steps: question, source, context and verification" width="100%">
+</picture>
+
+
 
 A matching username is a lead, not proof of identity. A search result is a source to inspect, not a conclusion to copy.
 
 ## Explore the directory
+
+<p><img src="assets/research-map.svg" alt="Four research surfaces with their included topics" width="100%"></p>
 
 Expand a collection to find its category guides. Individual guides link to the original tool documentation and license references.
 
@@ -175,7 +177,9 @@ Expand a collection to find its category guides. Individual guides link to the o
 
 ## Deploy the workbench
 
-<p><a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUmar-MultiverseCode%2FOSNIT-TOOLS"><img src="https://vercel.com/button" alt="Deploy OSNIT Tools on Vercel"></a></p>
+<p><img src="assets/deploy-panel.svg" alt="Local startup, Vercel settings and maintenance checklist" width="100%"></p>
+
+<p><a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FUmar-MultiverseCode%2FOSNIT-TOOLS"><img src="assets/button-deploy.svg" width="190" alt="Deploy OSNIT Tools on Vercel"></a></p>
 
 | Vercel setting | Value |
 | --- | --- |
@@ -185,7 +189,7 @@ Expand a collection to find its category guides. Individual guides link to the o
 | Output Directory | `dist` |
 | Environment variables | None required |
 
-The included `vercel.json` handles the build settings. After deployment, Vercel gives you the live URL. Interactive search and saved toolkits run on the website; GitHub renders the expandable collections, diagrams and image badges in this README.
+The included `vercel.json` handles the build settings. After deployment, Vercel gives you the live URL. Interactive search and saved toolkits run on the website; GitHub renders the expandable collections, original graphics and animations in this README.
 
 ## Inside the workbench
 
@@ -217,7 +221,7 @@ npm run dev
 
 Check creator credit, the original URL, category IDs and the upstream license reference. For interface changes, check search, saved entries, keyboard access and mobile layout. Keep the rectangular design intact.
 
-The website has **zero third-party npm dependencies**. README badges use external image services; saved website resources stay in the reader's browser.
+The website has **zero third-party npm dependencies**. README artwork is stored in the repository; saved website resources stay in the reader's browser.
 
 </details>
 
@@ -234,9 +238,11 @@ The website has **zero third-party npm dependencies**. README badges use externa
 
 ## Credits and licenses
 
+<p><img src="assets/credits-panel.svg" alt="Organizer credit, collection attribution and upstream license boundaries" width="100%"></p>
+
 The starting collection is credited to **[The OSINT Toolbox](https://github.com/The-Osint-Toolbox)**. Listed projects belong to their original authors. The website and original documentation use the [MIT license](LICENSE); linked projects retain their own upstream terms. Missing or unverified licenses remain labeled explicitly.
 
-Live badge infrastructure comes from [Shields.io](https://github.com/badges/shields). GitHub Actions drives the weekly refresh; Mermaid renders the research flow. Terminal artwork and metrics graphics are original assets created for this project. See [ATTRIBUTION.md](ATTRIBUTION.md).
+GitHub Actions drives the weekly refresh. Terminal artwork, navigation buttons, research panels, process animation and metrics graphics are original assets created for this project. See [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ---
 
