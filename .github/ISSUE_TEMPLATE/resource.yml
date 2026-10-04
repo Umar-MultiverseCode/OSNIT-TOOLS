@@ -1,0 +1,21 @@
+name: Suggest a resource
+description: Add an original tool or useful research resource
+title: Suggest a resource
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Original resource URL
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category and original creator
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Description, license and access requirements
+      description: Use your own words and distinguish verified information from assumptions.

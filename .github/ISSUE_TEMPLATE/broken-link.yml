@@ -1,0 +1,16 @@
+name: Report a broken link
+description: Help keep the catalogue accurate
+title: Report a broken link
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Broken resource URL
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened and suggested replacement
+    validations:
+      required: true

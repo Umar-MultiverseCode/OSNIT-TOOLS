@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An independent OSINT directory. Discover tools, search resources and build your own research toolkit across 34 categories.">
+  <meta name="theme-color" content="#151715">
+  <meta property="og:title" content="OSNIT TOOLS — Follow the evidence."><meta property="og:description" content="A considered directory for open-source research. Organized by Umar MultiverseCode."><meta property="og:type" content="website">
+  <title>OSNIT TOOLS — Follow the evidence.</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#directory">Skip to directory</a>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="OSNIT Tools home"><span class="brand-mark" aria-hidden="true">O<span>↗</span></span><span>OSNIT<span class="brand-sub">TOOLS / OPEN RESEARCH</span></span></a>
+    <nav aria-label="Main navigation"><a href="#directory">Directory <span>01</span></a><a href="#about">The project <span>02</span></a><a class="github-nav" href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="signal" aria-hidden="true"></span> INDEPENDENT OSINT DIRECTORY <span class="edition">VOL. 01 / 2026</span></div>
+        <h1 id="hero-title">Follow the<br><span>evidence.</span></h1>
+        <p>A good investigation starts with the right tools.<br>Find yours. Build your toolkit. Keep looking.</p>
+        <div class="hero-actions"><a class="button primary" href="#directory">Explore the directory <span>↗</span></a><a class="text-link" href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contribute a resource ↗</a></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="art-coordinate top">INDEX / OPEN SOURCE</div><div class="art-grid"><div class="crosshair"></div><span class="art-number">34</span><div class="art-bracket one"></div><div class="art-bracket two"></div><span class="art-label">WAYS TO START<br>ONE PLACE TO LOOK</span><span class="art-stamp">OS<br>INT</span></div><div class="art-coordinate bottom"><span>COLLECT → CONNECT → VERIFY</span><span>↗</span></div></div>
+    </section>
+    <section class="stats" aria-label="Directory statistics"><div><strong id="category-stat">34</strong><span>RESEARCH CATEGORIES</span></div><div><strong id="tool-stat">177</strong><span>REPOSITORY ENTRIES</span></div><div><strong id="resource-stat">—</strong><span>RESOURCE LINKS</span></div><div class="stats-note"><span>BUILT FOR THE CURIOUS.</span><p>Open sources. Original creators.<br>A directory that connects the dots.</p></div></section>
+    <section id="directory" class="directory" aria-labelledby="directory-title">
+      <div class="section-heading"><div><span class="eyebrow">01 / THE DIRECTORY</span><h2 id="directory-title">Your next lead.</h2></div><p>Choose a direction.<br>Find something worth exploring.</p></div>
+      <div class="directory-shell">
+        <aside id="sidebar" class="sidebar" aria-label="Filter by research category"><div class="sidebar-heading">RESEARCH AREAS <button id="close-categories" class="mobile-only icon-button" aria-label="Close categories">×</button></div><button class="category-button active" data-category=""><span>All categories</span><span id="all-count">—</span></button><div id="categories"></div><div class="sidebar-footer">ORGANIZED BY<br><a href="https://github.com/Umar-MultiverseCode" target="_blank" rel="noopener noreferrer">Umar MultiverseCode ↗</a></div></aside>
+        <div class="directory-content">
+          <form id="search-form" class="search-bar" role="search"><span aria-hidden="true">⌕</span><label class="sr-only" for="search">Search tools and resources</label><input id="search" type="search" autocomplete="off" placeholder="Search tools, keywords, categories…"><kbd aria-hidden="true">/</kbd><button type="button" id="clear-search" aria-label="Clear search">×</button></form>
+          <div class="filter-line"><button id="open-categories" class="mobile-only button small">Categories ☰</button><div id="type-tabs" class="type-tabs" aria-label="Resource types"><button data-type="" aria-pressed="true" class="active">All resources</button><button data-type="repository" aria-pressed="false">Repositories</button><button data-type="web-resource" aria-pressed="false">Web</button><button data-type="browser-extension" aria-pressed="false">Extensions</button><button data-type="telegram-resource" aria-pressed="false">Telegram</button><button data-type="video-resource" aria-pressed="false">Videos</button></div></div>
+          <div class="results-toolbar"><p id="result-summary" role="status" aria-live="polite">Loading the directory…</p><div class="toolbar-actions"><button id="saved-toggle" aria-pressed="false">Saved <span id="saved-count">0</span></button><label class="sr-only" for="sort">Sort resources</label><select id="sort"><option value="curated">Featured first</option><option value="az">A → Z</option></select><div class="view-toggle" aria-label="Result view"><button id="grid-view" class="active" aria-label="Grid view" aria-pressed="true">▦</button><button id="list-view" aria-label="List view" aria-pressed="false">☰</button></div></div></div>
+          <div id="active-filter" class="active-filter" hidden><span></span><button id="reset-filters">Reset filters ×</button></div>
+          <div id="results" class="resource-grid" aria-label="Directory results"></div>
+          <div id="empty-state" class="empty-state" hidden><span>NO MATCHES / TRY ANOTHER DIRECTION</span><h3>A different lead, perhaps?</h3><p>Try fewer keywords or choose another category.</p><button class="button" id="empty-reset">Clear all filters ↗</button></div>
+          <div id="load-error" class="empty-state" hidden><h3>The directory couldn’t load.</h3><p>Reload the page to try again.</p><button class="button" id="reload">Reload ↗</button></div>
+          <div class="pagination"><p id="page-summary"></p><button id="load-more" class="button">Show more resources <span>↓</span></button><button id="export-saved" class="text-link">Export saved list ↓</button></div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-title"><div><span class="eyebrow">02 / THE PROJECT</span><h2 id="about-title">A directory.<br>A starting point.<br><span>Your next discovery.</span></h2></div><div class="about-copy"><p>OSNIT TOOLS brings research resources into one considered space. From usernames and imagery to archives and public records, the idea is simple: spend less time finding tools and more time following evidence.</p><p>Organized by Umar MultiverseCode, with a starting collection from The OSINT Toolbox. Every tool belongs to its original creator. Every link takes you to the source.</p><a class="button" href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS" target="_blank" rel="noopener noreferrer">Built in the open <span>↗</span></a><div class="about-footnote">A listing is a research lead, not an endorsement or a verified identity match. Check the source, access requirements and upstream license.</div></div></section>
+  </main>
+  <footer><a class="footer-brand" href="./">OSNIT TOOLS<span>KEEP LOOKING. STAY CURIOUS.</span></a><div><a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/blob/main/ATTRIBUTION.md" target="_blank" rel="noopener noreferrer">Credits & licenses ↗</a><span>INDEPENDENT / OPEN SOURCE / 2026</span></div></footer>
+  <dialog id="resource-dialog"><div class="dialog-top"><span class="eyebrow">RESOURCE / FIELD NOTES</span><button id="close-dialog" class="icon-button" aria-label="Close resource details">×</button></div><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><div class="noscript">Enable JavaScript to search the directory, or browse the <a href="https://github.com/Umar-MultiverseCode/OSNIT-TOOLS/tree/main/docs/categories">category guides on GitHub</a>.</div></noscript>
+</body></html>

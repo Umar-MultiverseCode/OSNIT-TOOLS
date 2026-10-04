@@ -1,0 +1,14 @@
+{
+  "name": "osnit-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An independent directory of OSINT tools and research resources",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
