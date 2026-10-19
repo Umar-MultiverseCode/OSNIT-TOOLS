@@ -69,13 +69,13 @@ The source lands in the ignored `.local/tools` folder. Follow the **original pro
 A small discovery queue that rotates weekly. Follow a project back to its original author, read the documentation, then decide whether it fits your research.
 
 <!-- FIELD-NOTES:START -->
-**Week of 2026-10-12 · three original projects to explore**
+**Week of 2026-10-19 · three original projects to explore**
 
 | Project | Research direction | Creator |
 | --- | --- | --- |
-| [skytrack](docs/tools/ang13t--skytrack.md) | Flight & marine | [ANG13T](https://github.com/ANG13T) |
-| [Telepathy](docs/tools/jordanwildon--telepathy.md) | Telegram | [jordanwildon](https://github.com/jordanwildon) |
-| [h8mail](docs/tools/khast3x--h8mail.md) | Data Acquisition | [khast3x](https://github.com/khast3x) |
+| [LocalAI](docs/tools/mudler--localai.md) | AI Resources | [mudler](https://github.com/mudler) |
+| [sherlock](docs/tools/sherlock-project--sherlock.md) | Email & usernames | [sherlock-project](https://github.com/sherlock-project) |
+| [Telerecon](docs/tools/sockysec--telerecon.md) | Telegram | [sockysec](https://github.com/sockysec) |
 
 Open a field guide for the source, clone command and upstream license. This rotation highlights catalogue entries; it does not certify their availability or functionality.
 <!-- FIELD-NOTES:END -->
